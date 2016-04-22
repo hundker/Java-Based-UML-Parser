@@ -1,0 +1,23 @@
+Main ->ObserverTest:1 setUp() : 
+Main ->ObserverTest:2 test() : (void
+ObserverTest ->ConcreteSubject:2.1 attach(Observer) : (void
+ObserverTest ->ConcreteSubject:2.2 attach(Observer) : (void
+ObserverTest ->ConcreteSubject:2.3 setState(String) : (void
+ConcreteSubject ->ConcreteSubject:2.3.1 notifyObservers() : (void
+ConcreteSubject ->Pessimist:2.3.1.1 update() : (void
+Pessimist ->ConcreteSubject:2.3.1.1.1 getState() : (String
+Pessimist ->ConcreteSubject:2.3.1.1.2 getState() : (String
+ConcreteSubject ->Optimist:2.3.1.2 update() : (void
+Optimist ->ConcreteSubject:2.3.1.2.1 getState() : (String
+Optimist ->ConcreteSubject:2.3.1.2.2 getState() : (String
+ObserverTest ->ConcreteSubject:2.4 setState(String) : (void
+ConcreteSubject ->ConcreteSubject:2.4.1 notifyObservers() : (void
+ConcreteSubject ->Pessimist:2.4.1.1 update() : (void
+Pessimist ->ConcreteSubject:2.4.1.1.1 getState() : (String
+Pessimist ->ConcreteSubject:2.4.1.1.2 getState() : (String
+ConcreteSubject ->Optimist:2.4.1.2 update() : (void
+Optimist ->ConcreteSubject:2.4.1.2.1 getState() : (String
+Optimist ->ConcreteSubject:2.4.1.2.2 getState() : (String
+ObserverTest ->ConcreteObserver:2.5 showState() : (void
+ObserverTest ->ConcreteObserver:2.6 showState() : (void
+Main ->ObserverTest:3 tearDown() : (void

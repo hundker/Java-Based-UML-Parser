@@ -1,0 +1,4 @@
+cf create-service predix-uaa-training Free uaa-training-Saikrishnan -c  '{"adminClientSecret":"myadminsecret"}'
+
+
+myadminsecret
